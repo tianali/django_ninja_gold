@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.header {
+    padding: 10px;
+}
+
+p {
+    display: inline-block;
+}
+
+#goldcount {
+    width: 50px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.boxes {
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    display: inline-block;
+    flex: 0 0 200px;
+    border: 2px solid black;
+}
+
+.top {
+    background-color: #ccccff;
+}
+
+h2 {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 90px;
+}
+
+.earnings {
+    padding-top: 5px;
+    display: inline-block;
+    width: 98px;
+    text-align: center;
+}
+
+#farm {
+    background: url('../img/farm.gif') no-repeat;
+    background-size: auto 100%;
+    background-position: left;
+}
+
+#cave {
+    background: url('../img/cave.webp') no-repeat;
+    background-size: auto 120%;
+    background-position: right;
+}
+
+#home {
+    background: url('../img/house.webp') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#casino {
+    background: url('../img/casino.jpeg') no-repeat;
+    background-size: auto 120%;
+    background-position: center bottom;
+}
+
+.bottom {
+    text-align: center;
+    align-items: flex-end;
+}
+.click {
+    width: 80px;
+    background-color: #ccccff;
+    box-shadow: 2px 2px;
+    padding: 5px;
+    margin-top: 135px;
+}
+
+#activities {
+    padding: 10px;
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+#logs {
+    border-color: black;
+    margin: 10px 0px;
+    width: 100%;
+    min-height: 100px;
+}
+
+#message {
+    display: block;
+}
